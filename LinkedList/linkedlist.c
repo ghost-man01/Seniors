@@ -13,9 +13,9 @@ int main()
     int n;
     Node* tmp;
     printf("Enter number of Linked List:");
-    // scanf("%d", &n);
+    scanf("%d", &n);
 
-    p = (struct Node*)malloc(sizeof(Node));
+    p = (struct Node*)malloc(n*sizeof(struct node*));
     p -> data = 1;
     p -> next = NULL;
     tmp->data = 3;
